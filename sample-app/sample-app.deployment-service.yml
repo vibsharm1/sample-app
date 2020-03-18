@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: clarkkent/sampleapp:v3
+          image: clarkkent/sampleapp:v4
           env:
             - name: APP_NAME
               value: "sample-app"
