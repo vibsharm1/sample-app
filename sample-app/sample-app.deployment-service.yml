@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: ${dockerHubUsername}/sample-app:v1
+          image: clarkkent/sampleapp:latest
           env:
             - name: APP_NAME
               value: "sample-app"
